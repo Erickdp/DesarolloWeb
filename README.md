@@ -1,4 +1,4 @@
 # DesarolloWeb
-Ejericio de:
+Ejercicio de:
 1) Maquetación de sitio Web usando Html5 y Css3.
-2) Uso de git y gitHub 
+2) Uso de git & gitHub 
