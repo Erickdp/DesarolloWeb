@@ -1,0 +1,76 @@
+/* Se utiliza para quitar todos los margenes */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  background: #238a52;
+  height: 70px;
+}
+
+.ancho {
+  width: 80%;
+  height: 70px;
+  /* background: red; */
+  margin: auto;
+}
+
+.logo{
+  width: 30%;
+  height: 70px;
+  /* background: blue; */
+  float: left;
+  padding-top: 10px;
+  /* evitar que se agrande el contenedor */
+  box-sizing: border-box;
+}
+
+nav {
+  width: 70%;
+  height: 70px;
+  /* background: olive; */
+  float: left;
+  /* Para que el menú se recorra a la derecha */
+  text-align: right;
+  padding-top: 24px;
+  box-sizing: border-box;
+}
+
+/* Ingresa a logo luego a p y por ultimo a a */
+.logo p a {
+  color: white;
+  /* Tamaño de letra */
+  font-size: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Raleway;
+}
+
+nav ul li {
+  /* Desplegar los li a la izquierda */
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 15px;
+  font-weight: bold;
+  /* Espacio entre letras */
+  letter-spacing: 1px;
+  font-family: Raleway;
+}
+
+nav ul li a:hover {
+  color: #444;
+}
+
+/* @font-face {
+  Escrbimos un alias para la fuente que la pasamos
+  font-family: Raleway;
+  src: url(font/fontOne.ttf);
+} */
