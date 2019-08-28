@@ -1,0 +1,105 @@
+h1, h2, h4, h5, h6 {
+  text-transform: uppercase;
+  color: black;
+  font-family: Montserrat;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 26px;
+  color: #333;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.5; /*Altura de las letras de h3*/
+  padding-top: 20px;
+  font-weight: normal; /*Quita el ancho de las letras de h3*/
+}
+
+.wap {
+  width: 90%;
+  margin: auto;
+}
+
+.bienvenido {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.contenedor-columnas {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.columnasx3 {
+  width: 33.333%;
+  float: left;
+  /* Arriba y abajo, Izq y Dere */
+  padding: 20px 20px;
+  /* Respeta el contenedor osea .contenedor-columnas */
+  box-sizing: border-box;
+  margin: auto;
+}
+
+h4 {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+h5 {
+  font-family: Montserrat;
+  line-height: 1.5;
+  font-weight: normal;
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+p {
+  color: #888;
+  font-family: Montserrat;
+  font-size: 15px;
+}
+
+.columnasx3 img {
+  width: 100%;
+}
+
+.banner-1 {
+  width: 100%;
+  background: rgb(62, 74, 121);
+  /* Elimina que se sobreponga la sección anterior
+  pero aveces queda cool */
+  clear: both;
+  padding: 30px 50px 50px 50px;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  /* Transición cuando salgo del banner */
+  transition: .4s;
+}
+
+.banner-1 a {
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  color: #fff;
+  border-bottom: 2px solid white;
+}
+
+.banner-1:hover {
+  background-color: #444;
+  /* Transición cuando entro */
+  transition: .4s;
+}
+
+.columnasx3 i {
+  float: left;
+  padding-right: 20px;
+  color: blue;
+}
+
+.columnasx3 h4 {
+  padding-bottom: 20px;
+}

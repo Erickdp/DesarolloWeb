@@ -1,0 +1,34 @@
+#particles-js {
+  background: url(../img/image.jpg);
+  background-position: center;
+  background-attachment: contain;
+  /* Cubre la imagén sin importar el tamaño de la página */
+  background-size: cover;
+}
+
+.ancho-letras {
+  top: 200px;
+  /* Coloca la caja del div sin importar el orden de las cajas */
+  position: absolute;
+  /* Pone al contenedor como secundario */
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+}
+
+.letras-slider {
+  width: 80%;
+  margin: auto;
+}
+
+.letras-slider h1 {
+  color: #ffff;
+  font-family: Montserrat;
+  font-size: 70px;
+}
+
+.letras-slider p {
+  color: #ffff;
+  font-family: Montserrat;
+  font-size: 20px;
+}

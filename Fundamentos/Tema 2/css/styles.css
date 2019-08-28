@@ -1,0 +1,69 @@
+/* Se quita los margenes por defecto */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  /* debe de tener width al 100%
+  para utilizar el position fixed
+  que hace que el header quede fijado
+  , además rgba 'a' le da transparencia */
+  background: rgba(0, 0, 0, .8);
+  width: 100%;
+  font-family: Montserrat;
+  height: 60px;
+  position: fixed;
+  /* Pone al contenedor como principal */
+  z-index: 10;
+}
+
+.ancho a {
+  text-decoration: none;
+  color: white;
+}
+
+.ancho {
+  /* El ancho de este cajón permite que el margen
+  auto lo ponga centrados dependiendo del porcentaje
+  del ancho */
+  width: 80%;
+  margin: auto;
+  /* Altua */
+  height: 60px;
+}
+
+.logo {
+  /* Si hay mas contenedores dentro de de otros los porcentajes
+  serán de nuevo al 100% es decir anteriormente se puso
+  width: 80% en este caso .logo tendra el width a 100% */
+  width: 60%;
+  padding-top: 4px;
+  /* Flota el cajón a la izquierda */
+  float: left;
+  font-size: 40px;
+}
+
+nav {
+  width: 40%;
+  padding-top: 20px;
+  float: left;
+}
+
+nav ul li {
+  font-size: 15px;
+  padding-left: 30px;
+  letter-spacing: 2px;
+  float: left;
+  display: inline;
+}
+
+.ancho a:hover {
+  color: #a7015f;
+}
+
+@font-face {
+  font-family: Montserrat;
+  /* Para regresar un nivel se pone .. */
+  src: url(../font/Montserrat-Regular.ttf);
+}

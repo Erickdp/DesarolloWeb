@@ -1,0 +1,28 @@
+#particles-js {
+  background-image: url(../img/image.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.ancho-letras {
+  position: absolute;
+  margin-top: 150px;
+  color: white;
+  font-family: Montserrat;
+  z-index: 1;
+}
+
+.letras {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.letras h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.letras p {
+  font-size: 15px;
+}
